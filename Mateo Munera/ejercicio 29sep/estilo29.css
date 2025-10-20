@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: url(../img/bg_cabezote.jpg) bottom repeat-x;
+    height: 230px;
+}
+.container{
+    width: 950px;
+    /*border: red solid 1px;*/
+    margin: 0 auto;
+    display: flex;
+    
+}
+#logo{
+    background: url(../img/logo_corporacion_diafora.png) no-repeat;
+    height: 180px;
+    width: 280px;
+}
+#logo a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#logo h1{
+    display: none;
+}
+.mainmenu{
+    width: 250px ;
+    background: #feb228 url(../img/bg_botones_top.jpg) no-repeat;
+    padding-top: 15px;
+display: inline-block;
+vertical-align: top;
+
+}
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+background: #feb228 url(../img/bg_botones_top\ -\ copia.jpg) no-repeat bottom;
+    padding-bottom: 15px;
+}
+.mainmenu ul li{
+    color: #fff;
+    text-indent: 15px;
+    padding: 6px 0;
+    border: dotted #fff 1px;
+}
+.mainmenu ul li:hover{
+    background: red;
+}
+.banner{
+display: inline-block;
+margin-left: 30px;
+
+}
+section{
+    background: #ccc;
+}
+.mateo p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #6f6e6e;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 40px;
+}
+.flex article{
+    width: 49%;
+}
+aside{
+    margin-right: 1cm;
+}
+aside h1{
+    border-bottom: black 5px solid;
+}
+aside img{
+    margin: 5px;
+}
+.columnas{
+    column-count: 2;
+}
+footer{
+    background: url(../img/barra.jpg) repeat-x bottom;
+    padding-bottom: 30px;
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+    padding: 6px 0;
+    border-bottom: dotted #ddc39f 1px;
+}
+footer a:link, footer a:visited{
+    color: #ea5e30;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #fccb28;
+}

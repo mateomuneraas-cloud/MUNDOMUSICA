@@ -1,0 +1,159 @@
+
+
+@font-face {
+    font-family: "teocristalesrotos";
+    src: url(../Cristales\ Rotos.ttf) format("truetype");
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    background-image: url(../img/1077063.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+#logo{
+    background-color: blue;
+    width: 100PX;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-family: "teocristalesrotos";
+    font-weight: bold;
+    color: white;
+    border-radius: 10%;
+    transition: all 1s ease-in-out;
+}
+    h1{
+        color: red;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    footer{
+        background-color: aqua;
+    }
+        P{ font-size: 16px;
+        font-family: "teocristalesrotos";
+        color: grey;
+        background-color: white;
+        padding-top: 50px;
+        padding-right: 60px;
+        padding-bottom: 50px;
+        padding-left: 60px;
+        /*borde*/
+        border-top:red 4px solid;
+        border-right: green 8px dotted;
+        border-bottom: purple 3px dashed;
+        border-left: orange 5px double;
+    
+        }
+    
+    .destacado {
+        text-align: right;
+        margin-left: 30px;
+        width: 80%;
+        font-style: italic;
+        color: darkolivegreen;
+        font-size: 19px;
+        background-color: aquamarine;
+        -webkit-box-shadow: 12px 12px 12px 12px #FF0000;
+box-shadow: 12px 12px 12px 12px #FF0000;
+    }
+    article h1{background-color: tomato;
+        color: white;
+        text-transform: uppercase;
+        padding: 15px;
+    }
+    section h1{
+        color: black;
+        font-size: 15px;
+    }
+    header{ 
+        background-color: aqua !important;
+        background-size: contain !important; 
+        padding: 30px;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        column-gap: 40px;
+    }
+    .link ul{ 
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        background-color: aqua;
+    }
+    .link ul li{
+        margin: 5px;
+    }
+    .link a:link{
+        color: brown;
+        text-decoration: none;
+        font-family: arial;
+    
+    }
+    .link a:visited{
+        color: aqua;
+        text-decoration: underline;
+    }
+    .link a:hover{
+        background-color:rgb(255, 255, 255);
+        color: tomato;
+    }
+    .link a:active{
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+a{
+    color: aqua;
+}
+#todo { 
+    background-color: aliceblue;
+  max-width: 1200px;
+   margin:auto;
+   
+
+}
+#div {
+    background-color: orange;
+    display: inline;
+}
+
+span {
+    background-color: aqua;
+}
+#logo:hover {
+    background-color: #FF0000;
+    -moz-transform: scale(1.5) rotate(15deg);
+-webkit-transform: scale(1.5) rotate(15deg);
+-o-transform: scale(1.5) rotate(15deg);
+-ms-transform: scale(1.5) rotate(15deg);
+transform: scale(1.5) rotate(15deg);
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+main{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 30px;
+}
+main h1{
+    width: 100%;
+}
+article{
+    background-color: beige;
+    min-height: 200px;
+    width: 49%;
+}
